@@ -9,6 +9,11 @@
 				background: pink;
 				border: 1px solid purple;
 			}
+			.orange {
+				background: orange;
+				border: 1px dashed red;
+				height: 50px;
+			}
 		</style>
 	</head>
 	<body>
@@ -17,13 +22,56 @@
 				<div class="col-lg-6 pink">COL LG 6</div>
 				<div class="col-lg-6 pink">COL LG 6</div>
 			</div>
-			
 			<br>
-
 			<div class="row">
 				<div class="col-lg-2 pink">COL LG 2</div>
 				<div class="col-lg-8 pink">COL LG 8</div>
 				<div class="col-lg-2 pink">COL LG 2</div>
+			</div>
+			<h2>Grid Part 2</h2>
+			<div class="row">
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+				<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			</div>
+			<br>
+			<h2>UNDERSTAND 4 DIFFERENT SIZES (LG MD SM XS)</h2>
+			<div class="row"> <!--quando vc quer o mesmo tamanho de grande pra medio, nao precisa colocar o grande, o sistema vai entender que é a mesma configuração... tbm nao precisa do "xm" extra small, ja que vai direto pra configuração de 12unidades/coluna-->
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+			</div>
+			<br>
+			<h2>WRITE NESTED GRIDS</h2>
+			<div class="row"> 
+				<div class="col-md-3 col-sm-6 pink">
+					<div class="row">
+						<div class="col-md-6 orange">FIRST HALF</div>
+						<div class="col-md-6 orange">OTHER HALF</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+				<div class="col-md-3 col-sm-6 pink">
+					<div class="row">
+						<div class="col-lg-2 orange"></div>
+						<div class="col-lg-2 orange"></div>
+						<div class="col-lg-2 orange"></div>
+						<div class="col-lg-2 orange"></div>
+						<div class="col-lg-2 orange"></div>
+						<div class="col-lg-2 orange"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 
